@@ -60,6 +60,7 @@ def get_db() -> mysql.connector.connection.MySQLConnection:
         user=username, password=password, host=host, database=db_name
     )
 
+
 def main() -> None:
     """  Read and filter data """
     db = get_db()
