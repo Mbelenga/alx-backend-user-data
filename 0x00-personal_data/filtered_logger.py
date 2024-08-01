@@ -15,4 +15,3 @@ def filter_datum(
         regex = f"{field}=[^{separator}]*"
         message = re.sub(regex, f"{field}={redaction}", message)
     return message
-
